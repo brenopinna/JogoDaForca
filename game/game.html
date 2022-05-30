@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Jogo Da Forca</title>
+    <link href="../css/game.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <h1>JOGO DA FORCA!!!</h1>
+        <h3>Criado por: Breno Pinna</h3>
+    </header>
+
+    <main>
+        <section class="selecao-tema">
+            <h3>Selecione um dos temas abaixo:</h3>
+            <div class="temas">
+                <!--incrementada por js-->
+            </div><!--temas-->
+            <button type="submit">Escolher</button>
+        </section><!--selecao-tema-->
+        <section class="container-jogo">
+            <div class="texto">
+                <div class="erros-texto">
+                    <p>ERROS RESTANTES: 6</p>
+                    <p>ERROS COMETIDOS: 0</p>
+                </div><!--erros-texto-->
+                <div class="chutes-errados">
+                    <p>Chutes Anteriores:</p>
+                    <span class="chutes-errados-span"></span>
+                </div><!--chutes-errados-->
+                <input type="text" name="chute" id="chute" placeholder="Chute:">
+            </div><!--texto-->
+            <span></span>
+            <div class="spans">
+                <!--incrementada pelo javascript-->
+            </div><!--spans-->
+        </section><!--container-jogo-->
+    </main>
+<script src="../js/script.js"></script>
+</body>
+</html>

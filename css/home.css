@@ -1,0 +1,27 @@
+@import url('header.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Oxygen;
+}
+
+section.container-botao-iniciar{
+    margin-top: 60px;
+    font-size: 30px;
+    text-align: center;
+}
+
+section.container-botao-iniciar button{
+    width: 300px;
+    height: 60px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    box-shadow: 0 0 8px black;
+    outline: 0;
+    cursor: pointer;
+}
